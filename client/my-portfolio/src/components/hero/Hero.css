@@ -1,0 +1,51 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+.hero img {
+    width: 100%; /* Makes the image responsive */
+    max-width: 400px; /* Adjust the maximum width */
+    max-height: 254px; /* Limit the maximum height */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: cover; /* Ensures the image covers the space without distortion */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    margin-top: 90px;
+}
+
+.hero h1 span{
+    background: linear-gradient(267deg, #DA7C25 0.36%, #b923e1 102.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero-action{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.hero-connect{
+    padding: 10px 20px; 
+    border-radius: 50px;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #b923e1 102.06%);
+    font-size: 18px; 
+    cursor: pointer;
+    transition: transform 0.5s ease; 
+}
+.hero-connect:hover{
+    transform: scale(1.05);
+    border: 2px solid #fff;
+}
+.hero-resume{
+    padding: 10px 20px; 
+    border-radius: 50px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+.hero-resume:hover{
+    border: 2px solid #b923e1 ;
+}
