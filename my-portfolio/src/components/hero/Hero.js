@@ -4,7 +4,7 @@ import "./Hero.css";
 export default function () {
   return (
     <div className="hero">
-      <img src="https://i.imgur.com/jkJTpKZ.jpeg" />
+      <img src="https://i.imgur.com/ex5pcvT.jpeg" />
       <h1><span>I'm JAISHIKHA SHARMA ,</span>Frontend Developer based in India.</h1>
       <p>
         Hi, I'm Jaishikha, a passionate React developer with 9 months of

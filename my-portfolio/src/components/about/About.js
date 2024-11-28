@@ -9,7 +9,7 @@ export default function About() {
       </div>
       <div className="about-sections">
         <div className="about-left">
-          <img src="https://i.imgur.com/jkJTpKZ.jpeg" />
+          <img src="https://i.imgur.com/ex5pcvT.jpeg" />
         </div>
         <div className="about-right">
           <div className="about-para">
