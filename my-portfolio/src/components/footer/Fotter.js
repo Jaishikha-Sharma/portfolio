@@ -22,7 +22,7 @@ export default function Fotter() {
       </div>
       <hr />
       <div className="footer-bottom">
-        <p className="footer-bottom-left">2024@ jaishikha sharma</p>
+        <p className="footer-bottom-left">2024@ somya bhardwaj</p>
         <div className="footer-bottom-right">
           <p>Connect With Me!</p>
         </div>

@@ -16,10 +16,10 @@ export default function Services() {
                 <h1>{service.id}</h1>
               <h2>{service.title}</h2>
               <p>{service.description}</p>
-              <div className="services-readmore">
+              {/* <div className="services-readmore">
                 <p>Read More</p>
               <MoveRight color="white" size={24}/>
-            </div>
+            </div> */}
             </div>
           );
         })}

@@ -9,15 +9,18 @@ export default function About() {
       </div>
       <div className="about-sections">
         <div className="about-left">
-          <img src="https://i.imgur.com/ex5pcvT.jpeg" />
+          <img src="https://i.imgur.com/KUtUnhC.jpeg" />
         </div>
         <div className="about-right">
           <div className="about-para">
             <p>
-              Hi, I'm Jaishikha, a dedicated Frontend Developer with a strong
-              focus on creating interactive web applications. I specialize in
-              React and modern frontend tools to bring designs to life and
-              ensure seamless user experiences.
+              Hi, I'm Somya, a passionate MERN Developer with extensive
+              experience in building full-stack web applications. I specialize
+              in using MongoDB, Express, React, and Node.js to create dynamic,
+              scalable, and interactive websites. With a keen focus on both
+              front-end and back-end development, I leverage modern tools and
+              best practices to deliver seamless user experiences and robust
+              functionality.
             </p>
             <p>
               I'm always eager to learn new technologies and improve my craft,
@@ -27,42 +30,46 @@ export default function About() {
           </div>
           <div className="about-skills">
             <div className="about-skill">
-              <p>HTML & CSS</p>
+              <p>Front-End</p>
               <hr style={{ width: "50%" }} />
             </div>
             <div className="about-skill">
-              <p>Javascript</p>
+              <p>Back-End</p>
               <hr style={{ width: "70%" }} />
             </div>
             <div className="about-skill">
-              <p>Redux</p>
+              <p>Restful APIs</p>
               <hr style={{ width: "60%" }} />
             </div>
             <div className="about-skill">
-              <p>React JS</p>
+              <p>State Management</p>
               <hr style={{ width: "60%" }} />
             </div>
             <div className="about-skill">
-              <p>Node JS</p>
+              <p>GIT</p>
               <hr style={{ width: "50%" }} />
+            </div>
+            <div className="about-skill">
+              <p>Soft skills</p>
+              <hr style={{ width: "80%" }} />
             </div>
           </div>
         </div>
       </div>
       <div className="about-achivements">
         <div className="about-achivement">
-          <h1>8+</h1>
-          <p>MONTHS OF EXPERIENCE</p>
+          <h1>1+</h1>
+          <p>YEAR OF EXPERIENCE</p>
         </div>
         <hr />
         <div className="about-achivement">
-          <h1>3+</h1>
+          <h1>6+</h1>
           <p>PROJECTS COMPLETED</p>
         </div>
-        <hr/>
+        <hr />
         <div className="about-achivement">
-          <h1>1</h1>
-          <p>AWS CERTIFICATION COMPLETED</p>
+          <h1>2+</h1>
+          <p>MERN CERTIFICATION COMPLETED</p>
         </div>
       </div>
     </div>

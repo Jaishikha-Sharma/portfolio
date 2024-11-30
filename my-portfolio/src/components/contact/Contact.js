@@ -2,6 +2,7 @@ import React from "react";
 import "./Contact.css";
 import { MailCheck } from "lucide-react";
 import { Linkedin } from "lucide-react";
+import { Github } from 'lucide-react';
 
 export default function Contact() {
   return (
@@ -16,16 +17,26 @@ export default function Contact() {
           <div className="contact-details">
             <div className="contact-detail">
               <MailCheck />
-              <p>jaishikhasharma919@gmail.com</p>
+              <p>Somyabhardwaj004@gmail.com</p>
             </div>
             <div className="contact-detail">
               <Linkedin />
               <a
-                href="https://www.linkedin.com/in/jaishikha-sharma-aa2211329"
+                href="https://www.linkedin.com/in/somya-bhardwaj8960/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                www.linkedin.com/in/jaishikha-sharma-aa2211329
+              https://www.linkedin.com/in/somya-bhardwaj8960/
+              </a>
+            </div>
+            <div className="contact-detail">
+            <Github />
+              <a
+                href="https://github.com/somyabhardwaj"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+               https://github.com/somyabhardwaj
               </a>
             </div>
           </div>
