@@ -117,6 +117,7 @@
   .contact-title img{
     width: 130px;
     right: -20px;
+    bottom: 0;
   }
   .contact-section{
     flex-direction: column;

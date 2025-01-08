@@ -111,6 +111,7 @@
   .about-title img{
     width: 130px;
     right: -20px;
+    bottom: 0;
   }
   .about-sections{
     flex-direction: column;

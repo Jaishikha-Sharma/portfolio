@@ -83,6 +83,7 @@ background-clip: text;
 .services-title img{
   width: 130px;
   right: -20px;
+  bottom: 0;
 }
 .services-format{
   gap: 20px;
