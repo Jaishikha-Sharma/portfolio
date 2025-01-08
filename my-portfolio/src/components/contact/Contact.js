@@ -18,26 +18,16 @@ export default function Contact() {
           <div className="contact-details">
             <div className="contact-detail">
               <MailCheck />
-              <p>Somyabhardwaj004@gmail.com</p>
+              <p>jaishikhasharma919@gmail.com</p>
             </div>
             <div className="contact-detail">
               <Linkedin />
               <a
-                href="https://www.linkedin.com/in/somya-bhardwaj8960/"
+                href="https://www.linkedin.com/in/jaishikha-sharma-aa2211329"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              https://www.linkedin.com/in/somya-bhardwaj8960/
-              </a>
-            </div>
-            <div className="contact-detail">
-            <Github />
-              <a
-                href="https://github.com/somyabhardwaj"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-               https://github.com/somyabhardwaj
+                www.linkedin.com/in/jaishikha-sharma-aa2211329
               </a>
             </div>
           </div>

@@ -7,9 +7,10 @@
 
 .contact-title img{
   position: absolute;
-  bottom: 0;
+  bottom: 16px;
   z-index: -1;
   right: 0;
+  width: 130px;
 }
 .contact-title {
   position: relative;
