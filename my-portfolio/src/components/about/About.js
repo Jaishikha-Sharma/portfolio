@@ -1,11 +1,13 @@
 import React from "react";
 import "./About.css";
+import theme_pattern from '../../assets/theme_pattern.svg'
 
 export default function About() {
   return (
     <div id="about" className="about">
       <div className="about-title">
         <h1>About Me</h1>
+        <img src={theme_pattern}/>
       </div>
       <div className="about-sections">
         <div className="about-left">
@@ -14,13 +16,10 @@ export default function About() {
         <div className="about-right">
           <div className="about-para">
             <p>
-              Hi, I'm Somya, a passionate MERN Developer with extensive
-              experience in building full-stack web applications. I specialize
-              in using MongoDB, Express, React, and Node.js to create dynamic,
-              scalable, and interactive websites. With a keen focus on both
-              front-end and back-end development, I leverage modern tools and
-              best practices to deliver seamless user experiences and robust
-              functionality.
+              Hi, I'm Jaishikha, a dedicated Full Stack Developer with a hands-on experience and strong
+              focus on creating interactive web applications. I specialize in
+              React and modern frontend tools to bring designs to life and
+              ensure seamless user experiences.
             </p>
             <p>
               I'm always eager to learn new technologies and improve my craft,
@@ -63,13 +62,13 @@ export default function About() {
         </div>
         <hr />
         <div className="about-achivement">
-          <h1>6+</h1>
+          <h1>4+</h1>
           <p>PROJECTS COMPLETED</p>
         </div>
         <hr />
         <div className="about-achivement">
-          <h1>2+</h1>
-          <p>MERN CERTIFICATION COMPLETED</p>
+          <h1>1</h1>
+          <p>AWS CERTIFICATION</p>
         </div>
       </div>
     </div>
