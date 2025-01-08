@@ -1,11 +1,13 @@
 import React from "react";
 import "./About.css";
+import theme_pattern from '../../assets/theme_pattern.svg'
 
 export default function About() {
   return (
     <div id="about" className="about">
       <div className="about-title">
         <h1>About Me</h1>
+        <img src={theme_pattern}/>
       </div>
       <div className="about-sections">
         <div className="about-left">
@@ -14,7 +16,7 @@ export default function About() {
         <div className="about-right">
           <div className="about-para">
             <p>
-              Hi, I'm Jaishikha, a dedicated Frontend Developer with a strong
+              Hi, I'm Jaishikha, a dedicated Full Stack Developer with a hands-on experience and strong
               focus on creating interactive web applications. I specialize in
               React and modern frontend tools to bring designs to life and
               ensure seamless user experiences.
@@ -56,13 +58,13 @@ export default function About() {
         </div>
         <hr />
         <div className="about-achivement">
-          <h1>3+</h1>
+          <h1>4+</h1>
           <p>PROJECTS COMPLETED</p>
         </div>
         <hr/>
         <div className="about-achivement">
           <h1>1</h1>
-          <p>AWS CERTIFICATION COMPLETED</p>
+          <p>AWS CERTIFICATION</p>
         </div>
       </div>
     </div>

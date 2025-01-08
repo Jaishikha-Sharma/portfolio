@@ -2,12 +2,14 @@ import React from "react";
 import "./Contact.css";
 import { MailCheck } from "lucide-react";
 import { Linkedin } from "lucide-react";
+import theme_pattern from '../../assets/theme_pattern.svg'
 
 export default function Contact() {
   return (
     <div id="contact" className="contact">
       <div className="contact-title">
         <h1>Get in touch</h1>
+        <img  src={theme_pattern}/>
       </div>
       <div className="contact-section">
         <div className="contact-left">
