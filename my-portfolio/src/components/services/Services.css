@@ -70,35 +70,52 @@ background-clip: text;
   transform: scale(1.05);
   transition: 0.4s ease;
 }
-@media(max-width:768px){
-.services{
-  gap: 50px;
-  margin: 50px 70px;
-  align-items: start;
-}
-.services-title h1{
-  font-size: 45px;
-  padding: 0;
-}
-.services-title img{
-  width: 130px;
-  right: -20px;
-  bottom: 0;
-}
-.services-format{
-  gap: 20px;
-  padding: 32px;
-}
-.services-format h2{
-  font-size: 28px;
-}
-.services-format p {
-  font-size: 18px;
-  line-height: 32px;
-  max-width: 300px;
-}
-.services-container{
-  grid-template-columns: 1fr ;
-  gap: 30px;
-}
+@media(max-width: 768px) {
+  .services{
+    gap: 50px;
+    margin: 20px 70px;
+    align-items: start;
+  }
+  .services-title h1{
+    font-size: 40px;
+    padding: 0;
+  }
+  .services-title img{
+    width: 130px;
+    right: -20px;
+    bottom: 0;
+  }
+
+  .services-format {
+    gap: 20px;
+    padding: 32px;
+    width: 97%; 
+  }
+
+  .services-format h2 {
+    font-size: 28px;
+  }
+
+  .services-format p {
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 300px; /* Limit the width of the text to ensure it's readable */
+  }
+
+  .services-container {
+    grid-template-columns: 1fr; /* Stack cards vertically on small screens */
+    gap: 30px;
+    margin-left: -56px;
+  }
+
+  /* Optional: Reduce the font size and padding for "Read More" to fit better */
+  .services-readmore p {
+    font-size: 16px;
+  }
+
+  /* Optional: Adjusting the icon size on small screens */
+  .services-readmore svg {
+    width: 18px;
+    height: 18px;
+  }
 }
