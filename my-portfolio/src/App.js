@@ -6,6 +6,7 @@ import Services from './components/services/Services'
 // import MyWorks from './components/myWork/MyWorks'
 import Contact from './components/contact/Contact'
 import Fotter from './components/footer/Fotter'
+import { Analytics } from "@vercel/analytics/react"
 
 export default function App() {
   return (
