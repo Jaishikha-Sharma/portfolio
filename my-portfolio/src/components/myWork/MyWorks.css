@@ -1,29 +1,23 @@
-.services-title h1 {
+.myWork-title h1 {
   display: inline-block;
   position: relative;
-  padding-bottom: 20px;
-  font-size: 2.5rem;
+  padding-bottom: 20px; 
+  font-size: 2.5rem; 
 }
 
-.services-title h1::after {
-  content: "";
+.myWork-title img {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  background: linear-gradient(
-    267deg,
-    rgba(218, 124, 37, 0.7) 0.36%,
-    rgba(185, 35, 225, 0.7) 102.06%
-  );
-  border-radius: 5px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  bottom: 16px;
+  z-index: -1;
+  right: 0;
+  width: 130px;
 }
-.services-title {
+
+.myWork-title {
   position: relative;
 }
-.services {
+
+.myWork {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,10 +25,8 @@
   gap: 80px;
   margin: 80px 100px;
 }
-.services-title {
-  position: relative;
-}
-.services-format {
+
+.myWork-format {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -45,36 +37,107 @@
   transition: 0.4s ease;
   cursor: pointer;
 }
-.services-container {
+
+.myWork-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 40px;
   margin-bottom: 80px;
 }
-.services-format h3 {
+
+.myWork-format h3 {
   font-size: 15px;
 }
-.services-format h2 {
+
+.myWork-format h2 {
   font-size: 25px;
   background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.services-format p {
+
+.myWork-format p {
   color: #d4d4d4;
   font-size: 20px;
   line-height: 30px;
 }
-.services-readmore {
+
+.myWork-readmore {
   display: flex;
   gap: 20px;
   align-items: center;
   margin-top: 20px;
 }
-.services-format:hover {
+
+.myWork-format:hover {
   border: 2px solid #ff00ff;
   background-image: linear-gradient(45deg, #3f0028, #582300);
   transform: scale(1.05);
   transition: 0.4s ease;
+}
+
+/* --- Mobile Responsive (same structure as .services) --- */
+@media(max-width: 768px) {
+  .myWork {
+    gap: 50px;
+    margin: 20px 70px;
+    align-items: start;
+  }
+
+  .myWork-title h1 {
+    font-size: 40px;
+    padding: 0;
+  }
+
+  .myWork-title img {
+    width: 130px;
+    right: -20px;
+    bottom: 0;
+  }
+
+  .myWork-format {
+    gap: 20px;
+    padding: 32px;
+    width: 97%;
+  }
+
+  .myWork-format h2 {
+    font-size: 28px;
+  }
+
+  .myWork-format p {
+    font-size: 18px;
+    line-height: 32px;
+    max-width: 300px;
+  }
+
+  .myWork-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-left: -56px;
+  }
+
+  .myWork-readmore p {
+    font-size: 16px;
+  }
+
+  .myWork-readmore svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+.myWork-link {
+  display: inline-block;
+  color: #da7c25;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.myWork-link:hover {
+  color: #b923e1;
+  border-bottom: 2px solid #b923e1;
+  transform: translateX(4px);
 }
