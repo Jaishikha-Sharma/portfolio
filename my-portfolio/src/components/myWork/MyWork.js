@@ -15,7 +15,7 @@ const work_Data = [
     id: 3,
     title: "Dice Roll Game",
     description: "An interactive dice roll game created using React, Node.js, and JavaScript, simulating random dice rolls with fun UI and logic.",
-    git: "https://github.com/Jaishikha-Sharma/Dice-Game/tree/master"
+    git: "https://dice-game-one-sandy.vercel.app/"
   },
   {
     id: 4,
