@@ -22,6 +22,12 @@ const work_Data = [
     title: "Google Gemini Clone",
     description: "Developed a Google Gemini app clone using React JS and JavaScript, integrating the Google Gemini API for interactive chat bot functionality.",
     git: "https://github.com/Jaishikha-Sharma/Google-Gemini-Clone/tree/master"
+  },
+  {
+    id: 5,
+    title: "ECMA LAB React Website",
+    description: "Developed a Minireals Testing Website using React JS and JavaScript, Created This website for a client with beautiful UI and Login Logout Auth using MONGODB",
+    git: "https://labs-ebon.vercel.app/"
   }
 ];
 
